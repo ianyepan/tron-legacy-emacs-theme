@@ -1,4 +1,9 @@
 # Emacs Tron Theme
+
+Copyright© 2018 Ian Y.E. Pan
+
+Licensed under GNU GPLv3
+
 ### Custom Theme inspired by Tron: Legacy
 
 Apart from 'the Emacs scene' in the 2010 Tron film, the colorscheme is
