@@ -15,9 +15,9 @@ Add these 2 lines in you init file:
     (load-theme `tron t)
 
 ## Screenshots:
-JavaScript, Emacs Lisp, NeoTree
+### JavaScript, Emacs Lisp, NeoTree
 <img src="./screenshot1.png" width=900>
 
 <br>
-Dired, Org Mode
+### Dired, Org Mode
 <img src="./screenshot2.png" width=900>
