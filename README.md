@@ -15,3 +15,5 @@ Add these 2 lines in you init file:
     (load-theme `tron t)
 
 ## Screenshots:
+<img src="./screenshot1.png" width=900>
+<img src="./screenshot2.png" width=900>
