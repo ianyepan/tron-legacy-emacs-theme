@@ -7,7 +7,7 @@ Licensed under GNU GPLv3
 ### Custom Theme inspired by Tron: Legacy
 
 Apart from 'the Emacs scene' in the 2010 Tron film, the colorscheme is
-heavily inspired by Solarized Dark, Doom, Base16-Ocean and City Lights.
+heavily inspired by Base16-Black-Metal, Doom, Grayscale and City Lights.
 
 
 ## Invoking theme:
