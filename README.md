@@ -27,7 +27,7 @@ Add these 2 lines in you init file:
 
 ### Dired, Org Mode
 
-<img src="./screenshot2.png" width=900>
+<img src="./screenshot1-1.png" width=900>
 
 
 
