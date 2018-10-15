@@ -1,6 +1,7 @@
 ;;; tron-theme.el --- Custom Theme inspired by Tron: Legacy
 ;;
 ;;  Copyright© 2018 Ian Y.E. Pan
+;;  Licensed under GNU GPLv3
 ;;
 ;;  This program is free software: you can redistribute it and/or modify
 ;;  it under the terms of the GNU General Public License as published by
@@ -48,7 +49,8 @@
  `(ido-subdir ((t (:foreground "#5DC4FF"))))
  `(isearch ((t (:background "#4D4FBB" :foreground "#fffafa"))))
  `(lazy-highlight ((t (:background "#659f93" :foreground "#fffafa"))))
- `(linum ((t (:background "#000000" :foreground "#455562"))))
+ `(linum ((t (:background "#000000" :foreground "#36424C"))))
+ `(nlinum-relative-current-face ((t (:inherit linum :background "#000000" :foreground "#c6c6c6" :weight normal))))
  `(font-lock-builtin-face ((t (:foreground "#5FC4FF"))))
  `(font-lock-doc-face ((t (:foreground "#828D9C" :italic t))))
  `(font-lock-comment-face ((t (
@@ -61,7 +63,7 @@
  `(font-lock-keyword-face ((t (:foreground "#5EC4FF"))))
  `(font-lock-negation-char-face ((t (:foreground "#5EC4FF"))))
  `(font-lock-preprocessor-face ((t (:foreground "#5EC4FF"))))
- `(font-lock-type-face ((t (:foreground"#EBBF83"))))
+ `(font-lock-type-face ((t (:foreground"#DEB45B"))))
 
  `(font-lock-constant-face ((t (:foreground "#B62D66"))))
  `(minibuffer-prompt ((t (:foreground "#729fcf" ))))
@@ -75,12 +77,13 @@
                                :inherit default
                                :foreground "#CBEBFF"
                                :height 1.1))))
- `(org-block ((t (:background "#263038" :foreground "#839DB2"))))
- `(org-document-title ((t (:height 2.0 :family "Georgia"))))
+ `(org-block ((t (:background "#20282F" :foreground "#839DB2"))))
+ `(org-document-title ((t (:height 2.0 :foreground "#9bbdd6"
+                                   :family "Georgia"))))
  `(org-level-1 ((t (
                     :inherit outline-1
                     :weight bold
-                    :foreground "#6BB9FE"
+                    :foreground "#94DCFE"
                     :height 1.3))))
  `(org-level-2 ((t (
                     :inherit outline-2
@@ -93,6 +96,16 @@
                     :foreground "#528BD1"
                     :height 1.1))))
  `(org-table ((t (:background "#002831" :foreground "#9bbdd6"))))
+
+ `(rainbow-delimiters-depth-1-face ((t (:foreground "#80E3E2"))))
+ `(rainbow-delimiters-depth-2-face ((t (:foreground "#6BB9FE"))))
+ `(rainbow-delimiters-depth-3-face ((t (:foreground "#B5DEFF"))))
+ `(rainbow-delimiters-depth-4-face ((t (:foreground "#80E3E2"))))
+ `(rainbow-delimiters-depth-5-face ((t (:foreground "#6BB9FE"))))
+ `(rainbow-delimiters-depth-6-face ((t (:foreground "#B5DEFF"))))
+ `(rainbow-delimiters-depth-7-face ((t (:foreground "#80E3E2"))))
+ `(rainbow-delimiters-depth-8-face ((t (:foreground "#6BB9FE"))))
+ `(rainbow-delimiters-depth-9-face ((t (:foreground "#B5DEFF"))))
 
  )
 
