@@ -19,12 +19,12 @@
 ;;
 ;;; Commentary:
 ;;  Apart from ``the Emacs scene'' in the 2010 Tron film, the colorscheme is
-;;  heavily inspired by Solarized Dark, Doom, Base16-Ocean and City Lights.
+;;  heavily inspired by Base16-BlackMetal, Doom, Grayscale and City Lights.
 ;;
 ;;
 ;;  Invoking theme:
 ;;  Put this file in "~/.emacs.d/themes/"
-;;  edit init.el and add these 2 lines:
+;;  Add these two lines in your init file:
 ;;
 ;;      (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 ;;      (load-theme `tron t)
@@ -46,7 +46,8 @@
  `(ido-first-match ((t (:foreground "#D7F0Ff" :weight bold))))
  `(ido-only-match ((t (:foreground "#31C0C0"))))
  `(ido-subdir ((t (:foreground "#5DC4FF"))))
-
+ `(isearch ((t (:background "#4D4FBB" :foreground "#fffafa"))))
+ `(lazy-highlight ((t (:background "#659f93" :foreground "#fffafa"))))
  `(linum ((t (:background "#000000" :foreground "#455562"))))
  `(font-lock-builtin-face ((t (:foreground "#5FC4FF"))))
  `(font-lock-doc-face ((t (:foreground "#828D9C" :italic t))))
@@ -92,7 +93,6 @@
                     :foreground "#528BD1"
                     :height 1.1))))
  `(org-table ((t (:background "#002831" :foreground "#9bbdd6"))))
-
 
  )
 
