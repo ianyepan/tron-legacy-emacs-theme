@@ -22,12 +22,12 @@ Then add these 2 lines in you init file:
 You're good to go!
 
 ## Screenshots:
-### JavaScript, Emacs Lisp, NeoTree
+### (left to right) JavaScript | Emacs Lisp | NeoTree
 <img src="./screenshot1.png" width=900>
 
 <br>
 
-### Dired, Org Mode
+### (left to right) Dired | Org Mode
 
 <img src="./screenshot1-1.png" width=900>
 
