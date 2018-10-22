@@ -12,12 +12,14 @@ heavily inspired by Base16-Black-Metal, Doom, Grayscale and City Lights.
 
 ## Invoking theme:
 
-Put this file in "~/.emacs.d/themes/"
+Simply put this file in "~/.emacs.d/themes/"
 
-Add these 2 lines in you init file:
+Then add these 2 lines in you init file:
 
     (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
     (load-theme `tron t)
+
+You're good to go!
 
 ## Screenshots:
 ### JavaScript, Emacs Lisp, NeoTree
