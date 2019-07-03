@@ -1,5 +1,10 @@
 # Emacs Tron Theme
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/EmacsIcon.svg/120px-EmacsIcon.svg.png" />
+</p>
+
+
 Copyright© 2018 Ian Y.E. Pan
 
 Licensed under GNU GPLv3
