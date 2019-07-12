@@ -1,4 +1,4 @@
-## Emacs Tron Legacy Theme
+### Tron Legacy Emacs Theme
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/EmacsIcon.svg/120px-EmacsIcon.svg.png" />
