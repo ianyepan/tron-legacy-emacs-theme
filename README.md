@@ -9,7 +9,7 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/EmacsIcon.svg/120px-EmacsIcon.svg.png" />
 </p>
 
-## Invoking theme:
+### Invoking theme:
 
 Simply put this file in "~/.emacs.d/themes/"
 
@@ -20,13 +20,13 @@ Then add these 2 lines in you init file:
 
 You're good to go!
 
-## Screenshots:
-### (left to right) JavaScript | Emacs Lisp | NeoTree
+### Screenshots:
+(left to right) JavaScript | Emacs Lisp | NeoTree
 <img src="./screenshot1.png" width=900>
 
 <br>
 
-### (left to right) Dired | Org Mode
+(left to right) Dired | Org Mode
 
 <img src="./screenshot1-1.png" width=900>
 
