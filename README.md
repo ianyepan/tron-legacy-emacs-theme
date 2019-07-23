@@ -1,21 +1,13 @@
-### Tron Legacy Emacs Theme
+<h3 align="center">Tron Legacy Emacs Theme</h3>
+<hr/>
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+<p align="center">Inspired by Base16-Black-Metal, Doom, Grayscale and City Lights.</p>
+
+<p align="center"><a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg" alt="License GPL 3" /></a>
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/EmacsIcon.svg/120px-EmacsIcon.svg.png" />
 </p>
-
-
-Copyright© 2018 Ian Y.E. Pan
-
-Licensed under GNU GPLv3
-
-### Custom Theme inspired by Tron: Legacy
-
-Apart from 'the Emacs scene' in the 2010 Tron film, the colorscheme is
-heavily inspired by Base16-Black-Metal, Doom, Grayscale and City Lights.
-
 
 ## Invoking theme:
 
