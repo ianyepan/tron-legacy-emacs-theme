@@ -18,9 +18,12 @@ Then add these 2 lines in you init file:
     (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
     (load-theme `tron t)
 
-You're good to go!
+
+<br>
+<br>
 
 ### Screenshots:
+
 (left to right) JavaScript | Emacs Lisp | NeoTree
 <img src="./screenshot1.png" width=900>
 
