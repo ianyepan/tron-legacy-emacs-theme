@@ -88,6 +88,7 @@
                     :foreground "#528BD1"
                     :height 1.1))))
  `(org-table ((t (:background "#002831" :foreground "#9bbdd6"))))
+ `(org-hide :foreground hidden)
 
  `(rainbow-delimiters-depth-1-face ((t (:foreground "#80E3E2"))))
  `(rainbow-delimiters-depth-2-face ((t (:foreground "#6BB9FE"))))
