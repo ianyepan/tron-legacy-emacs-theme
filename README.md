@@ -34,6 +34,7 @@ Then add these 2 lines in you init file:
 ### Screenshots:
 
 (left to right) Treemacs | Emacs Lisp | JSX
+
 <img src="./screenshot1-tron.png" width=900>
 
 <br>
