@@ -33,14 +33,14 @@ Then add these 2 lines in you init file:
 
 ### Screenshots:
 
-(left to right) Treemacs | Emacs Lisp | HTML/JSON
-<img src="./screenshot1-0.png" width=900>
+(left to right) Treemacs | Emacs Lisp | JSX
+<img src="./screenshot1-tron.png" width=900>
 
 <br>
 
-(left to right) Treemacs | Emacs Lisp | JSX
+(left to right) Treemacs | Emacs Lisp | JSX/HTML | Which-key
 
-<img src="./screenshot2.png" width=900>
+<img src="./screenshot2-tron.png" width=900>
 
 
 
