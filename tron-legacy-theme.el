@@ -1,4 +1,4 @@
-;;; tron-theme.el --- Custom Theme inspired by Tron: Legacy
+;;; tron-legacy-theme.el --- Custom Theme inspired by Tron: Legacy
 ;;
 ;;  Copyright© 2018 Ian Y.E. Pan
 ;;  Licensed under GNU GPLv3
@@ -22,22 +22,14 @@
 ;;  Apart from ``the Emacs scene'' in the 2010 Tron film, the colorscheme is
 ;;  heavily inspired by Base16-BlackMetal, Doom, Grayscale and City Lights.
 ;;
-;;
-;;  Invoking theme:
-;;  Put this file in "~/.emacs.d/themes/"
-;;  Add these two lines in your init file:
-;;
-;;      (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-;;      (load-theme `tron t)
-;;
 ;;; Code:
-(deftheme tron
+(deftheme tron-legacy
   "A theme by Ian Y.E. Pan. Licensed under GNU GPLv3.")
 
 (custom-theme-set-faces
- `tron
+ `tron-legacy
  `(default ((t (:background "#000000" :foreground "#6A8397" ))))
- `(cursor ((t (:background "#D7F0Ff"))))
+ `(cursor ((t (:background "#b0ccdc"))))
  `(region ((t (:background "#3E5668"))))
  `(bold ((t (:weight normal :foreground "DarkGoldenrod2"))))
  `(fringe ((t (:background "#000000"))))
@@ -54,7 +46,7 @@
  `(font-lock-builtin-face ((t (:foreground "#5FC4FF"))))
  `(font-lock-doc-face ((t (:foreground "#828D9C" :italic t))))
  `(font-lock-comment-face ((t (
-                               :foreground "#CBEBFF"
+                               :foreground "#B0CCDC"
                                :background nil
                                :italic t))))
  `(font-lock-string-face ((t (:foreground "#387AAA"))))
@@ -106,8 +98,21 @@
  `(rainbow-delimiters-depth-7-face ((t (:foreground "#80E3E2"))))
  `(rainbow-delimiters-depth-8-face ((t (:foreground "#6BB9FE"))))
  `(rainbow-delimiters-depth-9-face ((t (:foreground "#B5DEFF"))))
+ `(company-preview-common ((t (:foreground unspecified :background "#111111"))))
+ `(company-scrollbar-bg ((t (:background "#111111"))))
+ `(company-scrollbar-fg ((t (:background "#6a7488"))))
+ `(company-tooltip ((t (:inherit default :background "#111111"))))
+ `(company-tooltip-common ((t (:inherit font-lock-constant-face))))
+ `(company-tooltip-selection ((t (:inherit font-lock-keyword-face :background "#25272c" ))))
+ `(centaur-tabs-selected ((t (:background "#111111" :foreground "#eef6ff" :box nil))))
+ `(centaur-tabs-unselected ((t (:background "black" :foreground "#8899aa" :box nil))))
+ `(centaur-tabs-selected-modified ((t (:background "#111111" :foreground ,"#CAECFE" :box nil))))
+ `(centaur-tabs-unselected-modified ((t (:background "black" :foreground "#8899aa" :box nil))))
+ `(centaur-tabs-active-bar-face ((t (:background "#cafcff" :box nil))))
+ `(centaur-tabs-modified-marker-selected ((t (:inherit 'centaur-tabs-selected-modified :foreground "#cafcff" :box nil))))
+ `(centaur-tabs-modified-marker-unselected ((t (:inherit 'centaur-tabs-unselected-modified :foreground "#cafcff" :box nil))))
 
  )
 
-(provide-theme 'tron)
-;;; tron-theme.el ends here
+(provide-theme 'tron-legacy)
+;;; tron-legacy-theme.el ends here

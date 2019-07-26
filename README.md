@@ -17,29 +17,30 @@
 <p align="center">Inspired by Base16-Black-Metal, Doom, Grayscale and City Lights.</p>
 
 
-### Invoking theme:
+### Invoking the theme:
 
 Simply put this file in "~/.emacs.d/themes/"
 
 Then add these 2 lines in you init file:
 
+```
     (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-    (load-theme `tron t)
-
+    (load-theme `tron-legacy t)
+```
 
 <br>
 <br>
 
 ### Screenshots:
 
-(left to right) JavaScript | Emacs Lisp | NeoTree
-<img src="./screenshot1.png" width=900>
+(left to right) Treemacs | Emacs Lisp | HTML/JSON
+<img src="./screenshot1-0.png" width=900>
 
 <br>
 
-(left to right) Dired | Org Mode
+(left to right) Treemacs | Emacs Lisp | JSX
 
-<img src="./screenshot1-1.png" width=900>
+<img src="./screenshot2.png" width=900>
 
 
 
@@ -62,4 +63,3 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
