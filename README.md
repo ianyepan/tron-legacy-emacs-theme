@@ -24,8 +24,8 @@ Simply put this file in "~/.emacs.d/themes/"
 Then add these 2 lines in you init file:
 
 ```
-    (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-    (load-theme `tron-legacy t)
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+(load-theme `tron-legacy t)
 ```
 
 <br>
