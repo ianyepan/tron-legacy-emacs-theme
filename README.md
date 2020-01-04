@@ -26,6 +26,7 @@ Download `tron-legacy-theme.el` and put it under `~/.emacs.d/themes/` (or `~/.co
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 # or 
 (add-to-list 'custom-theme-load-path "~/.config/emacs/themes/")
+
 (load-theme `tron-legacy t)
 ```
 
