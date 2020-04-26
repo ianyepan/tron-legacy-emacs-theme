@@ -45,10 +45,7 @@
  `(nlinum-relative-current-face ((t (:inherit linum :background "#000000" :foreground "#c6c6c6" :weight normal))))
  `(font-lock-builtin-face ((t (:foreground "#5FC4FF"))))
  `(font-lock-doc-face ((t (:foreground "#828D9C" :italic t))))
- `(font-lock-comment-face ((t (
-                               :foreground "#B0CCDC"
-                               :background nil
-                               :italic t))))
+ `(font-lock-comment-face ((t (:foreground "#B0CCDC" :background nil :italic t))))
  `(font-lock-string-face ((t (:foreground "#387AAA"))))
  `(font-lock-variable-name-face ((t (:foreground "#9BBDD6"))))
  `(font-lock-function-name-face ((t (:foreground "#4BB5BE"))))
@@ -56,40 +53,16 @@
  `(font-lock-negation-char-face ((t (:foreground "#5EC4FF"))))
  `(font-lock-preprocessor-face ((t (:foreground "#5EC4FF"))))
  `(font-lock-type-face ((t (:foreground"#DEB45B"))))
-
  `(font-lock-constant-face ((t (:foreground "#B62D66"))))
  `(minibuffer-prompt ((t (:foreground "#729fcf" ))))
  `(font-lock-warning-face ((t (:foreground "red" :bold t))))
- `(dashboard-banner-logo-title-face ((t (
-                                         :inherit default
-                                         :overline t
-                                         :height 1.15
-                                         :family "Monaco"))))
- `(dashboard-heading-face ((t (
-                               :inherit default
-                               :foreground "#CBEBFF"
-                               :height 1.1))))
  `(org-block ((t (:background "#20282F" :foreground "#839DB2"))))
- `(org-document-title ((t (:height 2.0 :foreground "#9bbdd6"
-                                   :family "Georgia"))))
- `(org-level-1 ((t (
-                    :inherit outline-1
-                    :weight bold
-                    :foreground "#94DCFE"
-                    :height 1.3))))
- `(org-level-2 ((t (
-                    :inherit outline-2
-                    :weight bold
-                    :foreground "#80E3E2"
-                    :height 1.1))))
- `(org-level-3 ((t (
-                    :inherit outline-3
-                    :weight bold
-                    :foreground "#528BD1"
-                    :height 1.1))))
+ `(org-document-title ((t (:height 1.5 :foreground "#9bbdd6"))))
+ `(org-level-1 ((t (:inherit outline-1 :weight bold :foreground "#94DCFE" :height 1.3))))
+ `(org-level-2 ((t (:inherit outline-2 :weight bold :foreground "#80E3E2" :height 1.1))))
+ `(org-level-3 ((t (:inherit outline-3 :weight bold :foreground "#528BD1" :height 1.1))))
  `(org-table ((t (:background "#002831" :foreground "#9bbdd6"))))
  `(org-hide :foreground hidden)
-
  `(rainbow-delimiters-depth-1-face ((t (:foreground "#80E3E2"))))
  `(rainbow-delimiters-depth-2-face ((t (:foreground "#6BB9FE"))))
  `(rainbow-delimiters-depth-3-face ((t (:foreground "#B5DEFF"))))
@@ -112,7 +85,6 @@
  `(centaur-tabs-active-bar-face ((t (:background "#cafcff" :box nil))))
  `(centaur-tabs-modified-marker-selected ((t (:inherit 'centaur-tabs-selected-modified :foreground "#cafcff" :box nil))))
  `(centaur-tabs-modified-marker-unselected ((t (:inherit 'centaur-tabs-unselected-modified :foreground "#cafcff" :box nil))))
-
  )
 
 (provide-theme 'tron-legacy)

@@ -19,13 +19,15 @@
 
 ### Invoking the theme:
 
-Simply put this file in "~/.emacs.d/themes/"
 
-Then add these 2 lines in you init file:
+Download `tron-legacy-theme.el` and put it under `~/.emacs.d/themes/` (or `~/.config/emacs/themes/`), then add these lines to your `init.el`:
 
 ```
-    (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-    (load-theme `tron-legacy t)
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+# or 
+(add-to-list 'custom-theme-load-path "~/.config/emacs/themes/")
+
+(load-theme `tron-legacy t)
 ```
 
 <br>
