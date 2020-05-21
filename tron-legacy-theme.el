@@ -23,10 +23,14 @@
 
 ;;; Code:
 
+(defcustom tron-legacy-dark-fg-bright-comments nil
+  "If non-nil, default foreground will be dimmed and comments will be boosted to be brighter than the normal foreground."
+  :type 'boolean)
+
 (deftheme tron-legacy)
 (let ((class '((class color) (min-colors 89)))
       (fg0               "#5A7387")
-      (fg1               "#B0CCDC") ; default fg
+      (fg1               (if tron-legacy-dark-fg-bright-comments "#5A7387" "#B0CCDC")) ; default fg
       (fg2               "#8BaCbF")
       (fg3               "#bBECeF")
       (fg4               "#CBECFF")
@@ -38,8 +42,8 @@
       (bg4               "#2b4255")
       (bg-hl             "#1b3245") ; region, selection
       (tw-r              "#B62D66")
-      (tw-g              "#2Ba57E")
-      (tw-b              "#3F94aF")
+      (tw-g              "#4BB5BE")
+      (tw-b              "#387AAA")
       (key2              "#9BBDD6")
       (key3              "#aaaaaa")
       (accent            "#ffffff")
@@ -49,7 +53,7 @@
       (builtin           "#8Fd4FF")
       (keyword           "#8Fd4FF")
       (const             "#B62D66")
-      (comment           "#5a7387")
+      (comment           (if tron-legacy-dark-fg-bright-comments "#B0CCDC" "#5A7387"))
       (doc               "#6a8397")
       (type              "#4BB5BE")
       (str               "#387AAA")
@@ -89,7 +93,7 @@
    `(highlight                                ((,class (:foreground ,bg3 :background ,fg3))))
    `(hl-line                                  ((,class (:background "#0E2638"))))
    `(fringe                                   ((,class (:background ,bg1 :foreground ,fg4))))
-   `(cursor                                   ((,class (:background ,fg1))))
+   `(cursor                                   ((,class (:background "#B0CCDC"))))
    `(show-paren-match-face                    ((,class (:background ,warning))))
    `(show-paren-match                         ((t (:foreground ,accent :background ,bg4 :bold t))))
    `(show-paren-mismatch                      ((t (:background ,warning))))
@@ -121,7 +125,7 @@
 
    `(org-document-title                       ((,class (:foreground ,type :height 1.2 :bold t))))
    `(org-level-1                              ((,class (:bold nil :foreground ,tron-bluegreen :height 1.1))))
-   `(org-level-2                              ((,class (:bold nil :foreground ,tron-lightblue))))
+   `(org-level-2                              ((,class (:bold nil :foreground ,tron-yellow))))
    `(org-level-3                              ((,class (:bold nil :foreground ,tron-blue))))
    `(org-level-4                              ((,class (:bold nil :foreground ,tron-bluegreen))))
    `(org-code                                 ((,class (:foreground ,fg2))))
@@ -341,8 +345,8 @@
    `(helm-source-go-package-godoc-description ((,class (:foreground ,str))))
    `(helm-bookmark-w3m                        ((,class (:foreground ,type))))
 
-   `(web-mode-html-bracket-face               ((,class (:foreground "#808080"))))
-   `(web-mode-html-tag-face                   ((,class (:foreground ,keyword))))
+   `(web-mode-html-bracket-face               ((,class (:foreground ,doc))))
+   `(web-mode-html-tag-face                   ((,class (:foreground ,type))))
    `(web-mode-html-attr-name-face             ((,class (:foreground ,var))))
    `(web-mode-html-attr-value-face            ((,class (:foreground ,str))))
    `(web-mode-builtin-face                    ((,class (:inherit ,font-lock-builtin-face))))
@@ -399,7 +403,7 @@
    `(ivy-current-match                        ((t (:background ,bg-hl :extend t))))
    `(ivy-highlight-face                       ((t (:inherit font-lock-builtin-face))))
    `(ivy-match-required-face                  ((t (:inherit minibuffer-prompt :foreground ,warning))))
-   `(ivy-minibuffer-match-face-1              ((t (:inherit isearch))))
+   `(ivy-minibuffer-match-face-1              ((t (:foreground ,tron-lightblue))))
    `(ivy-minibuffer-match-face-2              ((t (:inherit ivy-minibuffer-match-face-1))))
    `(ivy-minibuffer-match-face-3              ((t (:inherit ivy-minibuffer-match-face-2))))
    `(ivy-minibuffer-match-face-4              ((t (:inherit ivy-minibuffer-match-face-2))))
