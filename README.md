@@ -33,6 +33,18 @@ Download `tron-legacy-theme.el` and put it under `~/.emacs.d/themes/` (or `~/.co
 <br>
 <br>
 
+### Customization options:
+
+Setting `tron-legacy-dark-fg-bright-comments` to non-nil will use a dimmed foreground and brighter comment-face (comments will be brighter than default foreground), as presented in the screenshot. The default value is `nil` (default foreground is brighter than comments).
+
+```emacs-lisp
+(setq tron-legacy-dark-fg-bright-comments t)
+(load-theme 'tron-legacy t)
+```
+
+<br>
+<br>
+
 ### Screenshots:
 
 (left to right) Treemacs | Emacs Lisp | JSX
