@@ -466,5 +466,6 @@
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'tron-legacy)
+(provide 'tron-legacy-theme)
 
 ;;; tron-legacy-theme.el ends here
