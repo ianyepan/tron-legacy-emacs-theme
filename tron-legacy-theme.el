@@ -141,6 +141,8 @@
    `(line-number                              ((,class (:foreground ,line-num :background nil))))
    `(line-number-current-line                 ((,class (:foreground ,fg1 :background nil))))
 
+   `(which-func                               ((t (:foreground ,tron-orange))))
+
    `(mode-line                                ((,class (:bold nil :foreground ,fg4 :background ,mode-line-bg))))
    `(mode-line-inactive                       ((,class (:bold nil :foreground ,fg0 :background ,mode-line-bg-dark))))
    `(mode-line-buffer-id                      ((,class (:bold nil :foreground ,fg4 :background nil))))
