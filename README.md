@@ -14,7 +14,7 @@
 
 <br/>
 
-<p align="center">Inspired by Base16-Black-Metal, Doom, Grayscale and City Lights.</p>
+<p align="center">Inspired by Base16-Black-Metal, Grayscale and City Lights.</p>
 
 
 ### Invoking the theme:
@@ -24,17 +24,15 @@ Download `tron-legacy-theme.el` and put it under `~/.emacs.d/themes/` (or `~/.co
 
 ```
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-# or 
+# or
 (add-to-list 'custom-theme-load-path "~/.config/emacs/themes/")
 
 (load-theme `tron-legacy t)
 ```
 
-<br>
-
 ### Customization options:
 
-1. Setting `tron-legacy-dark-fg-bright-comments` to `t` causes the foreground to be dimmed and comments to be brighter (comments will be brighter than default foreground), as presented in the screenshot. The default value is `nil` (default foreground is brighter than the comments).
+1. Setting `tron-legacy-dark-fg-bright-comments` to `t` causes the foreground to be dimmed and comments to be brighter. The default value is `nil`.
 
 ```emacs-lisp
 (setq tron-legacy-dark-fg-bright-comments t)
@@ -46,22 +44,17 @@ Download `tron-legacy-theme.el` and put it under `~/.emacs.d/themes/` (or `~/.co
 (setq tron-legacy-vivid-cursor t)
 ```
 
+### Screenshots of various modes:
+
+<!-- <img src="./screenshots/screenshot1-tron.png" width=800> -->
+
+<img src="./screenshots/screenshot2-tron.png" width=800>
+
+<img src="./screenshots/screenshot3-tron.png" width=800>
 <br>
+<img src="./screenshots/screenshot4-tron.png" width=800>
 <br>
-
-### Screenshots:
-
-(left to right) Treemacs | Emacs Lisp | JSX
-
-<img src="./screenshot1-tron.png" width=900>
-
-<br>
-
-(left to right) Treemacs | Emacs Lisp | JSX/HTML | Which-key
-
-<img src="./screenshot2-tron.png" width=900>
-
-
+<img src="./screenshots/screenshot5-tron.png" width=800>
 
 <br>
 <br>
