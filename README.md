@@ -16,6 +16,10 @@
 
 <p align="center">Inspired by Base16-Black-Metal, Grayscale and City Lights.</p>
 
+<p align="center">
+  <img src="http://idigitalcitizen.files.wordpress.com/2010/12/tron-legacy-logo-city-1440x960.jpg?w=440" />
+</p>
+
 
 ### Invoking the theme:
 
