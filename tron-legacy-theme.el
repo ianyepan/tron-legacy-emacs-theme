@@ -1,8 +1,10 @@
-;;; tron-legacy-theme.el --- A complete port of the Tron Legacy theme for Emacs
+;;; tron-legacy-theme.el --- An orginal theme inspired by Tron: Legacy
 
 ;; Copyright (C) 2018-2020 Ian Y.E. Pan
 
 ;; Author: Ian Y.E. Pan
+;; URL: https://github.com/ianpan870102/tron-legacy-emacs-theme
+;; Version: 2.0.0
 
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the tertron of the GNU General Public License as published by
@@ -20,15 +22,22 @@
 ;; This file is not part of Emacs.
 
 ;;; Commentary:
+;; An original theme for Emacs 24+ inspired by the look and feel of Tron: Legacy, with further inspirations drawn from Base16-Black-Metal, Grayscale and City Lights.
 
 ;;; Code:
 
+(defgroup tron-legacy nil
+  "Options for tron-legacy."
+  :group 'faces)
+
 (defcustom tron-legacy-dark-fg-bright-comments nil
   "If non-nil, default foreground will be dimmed and comments will be boosted to be brighter than the normal foreground."
+  :group 'tron-legacy
   :type 'boolean)
 
 (defcustom tron-legacy-vivid-cursor nil
   "If non-nil, the cursor will be bright golden, making it easier to spot."
+  :group 'tron-legacy
   :type 'boolean)
 
 (deftheme tron-legacy)
@@ -84,8 +93,8 @@
       (tron-green-bg       "#03353E")
       (tron-red-bghl       "#462026")
       (tron-blue-bghl      "#141E4F")
-      (tron-green-bghl     "#13454E")
-      )
+      (tron-green-bghl     "#13454E"))
+
   (custom-theme-set-faces
    'tron-legacy
    `(default                                  ((,class (:background ,bg1 :foreground ,fg1))))
@@ -457,8 +466,7 @@
    `(hl-todo                                  ((t (:inverse-video t))))
    `(highlight-numbers-number                 ((t (:foreground ,numeric))))
    `(highlight-operators-face                 ((t (:inherit default))))
-   `(highlight-symbol-face                    ((t (:background ,bg3 :distant-foreground ,fg0))))
-   ))
+   `(highlight-symbol-face                    ((t (:background ,bg3 :distant-foreground ,fg0))))))
 
 ;;;###autoload
 (when (and (boundp 'custom-theme-load-path) load-file-name)
