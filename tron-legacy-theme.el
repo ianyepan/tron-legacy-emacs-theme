@@ -24,6 +24,11 @@
 ;;; Commentary:
 ;; An original theme for Emacs 24+ inspired by the look and feel of Tron: Legacy, with further inspirations drawn from Base16-Black-Metal, Grayscale and City Lights.
 
+;; MELPA recipe
+;; (tron-legacy-theme
+;;  :fetcher github
+;;  :repo "ianpan870102/tron-legacy-emacs-theme")
+
 ;;; Code:
 
 (defgroup tron-legacy nil
@@ -61,14 +66,14 @@
       (key2              "#9BBDD6")
       (key3              "#AAAAAA")
       (accent            "#FFFFFF")
-      (numeric           "#B62D66")
+      (numeric           "#4bb5be")
       (mode-line-bg      "#3D5666")
       (mode-line-bg-dark "#1E1E1E")
       (line-num          "#5A7387")
       (cursor            (if tron-legacy-vivid-cursor "#EEC45B" "#B0CCDC"))
       (builtin           "#8Fd4FF")
       (keyword           "#8Fd4FF")
-      (const             "#B62D66")
+      (const             "#BBF0EF")
       (comment           (if tron-legacy-dark-fg-bright-comments "#B0CCDC" "#5A7387"))
       (doc               "#6A8397")
       (type              "#4BB5BE")
@@ -132,9 +137,9 @@
    `(line-number                              ((,class (:foreground ,line-num :background nil))))
    `(line-number-current-line                 ((,class (:foreground ,fg1 :background nil))))
 
-   `(mode-line                                ((,class (:bold nil :foreground ,fg3 :background ,mode-line-bg))))
-   `(mode-line-inactive                       ((,class (:bold nil :foreground ,fg1 :background ,mode-line-bg-dark))))
-   `(mode-line-buffer-id                      ((,class (:bold nil :foreground ,fg3 :background nil))))
+   `(mode-line                                ((,class (:bold nil :foreground ,fg4 :background ,mode-line-bg))))
+   `(mode-line-inactive                       ((,class (:bold nil :foreground ,fg0 :background ,mode-line-bg-dark))))
+   `(mode-line-buffer-id                      ((,class (:bold nil :foreground ,fg4 :background nil))))
    `(mode-line-highlight                      ((,class (:foreground ,keyword :box nil :weight normal))))
    `(mode-line-emphasis                       ((,class (:foreground ,fg1))))
 
