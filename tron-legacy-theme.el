@@ -1,4 +1,4 @@
-;;; tron-legacy-theme.el --- An orginal theme inspired by Tron: Legacy
+;;; tron-legacy-theme.el --- An orginal retro-futuristic theme inspired by Tron: Legacy
 
 ;; Copyright (C) 2018-2020 Ian Y.E. Pan
 
@@ -60,9 +60,9 @@
       (bg4               "#2B4255")
       (hl-line           "#0E2638") ; hl-line
       (bg-hl             "#2B4255") ; region, selection
-      (tw-r              "#B62D66")
-      (tw-g              "#4BB5BE")
-      (tw-b              "#387AAA")
+      (vc-r              "#B62D66")
+      (vc-g              "#4BB5BE")
+      (vc-b              "#387AAA")
       (key2              "#9BBDD6")
       (key3              "#AAAAAA")
       (accent            "#FFFFFF")
@@ -441,16 +441,16 @@
    `(swiper-match-face-4                      ((t (:inherit ivy-minibuffer-match-face-4))))
    `(swiper-line-face                         ((t (:foreground ,fg3 :background ,bg-hl :extend t))))
 
-   `(git-gutter:added                         ((t (:background ,tw-g :foreground ,tw-g :weight normal))))
-   `(git-gutter:deleted                       ((t (:background ,tw-r :foreground ,tw-r :weight normal))))
-   `(git-gutter:modified                      ((t (:background ,tw-b :foreground ,tw-b :weight normal))))
-   `(git-gutter-fr:added                      ((t (:background ,tw-g :foreground ,tw-g :weight normal))))
-   `(git-gutter-fr:deleted                    ((t (:background ,tw-r :foreground ,tw-r :weight normal))))
-   `(git-gutter-fr:modified                   ((t (:background ,tw-b :foreground ,tw-b :weight normal))))
+   `(git-gutter:added                         ((t (:background ,vc-g :foreground ,vc-g :weight normal))))
+   `(git-gutter:deleted                       ((t (:background ,vc-r :foreground ,vc-r :weight normal))))
+   `(git-gutter:modified                      ((t (:background ,vc-b :foreground ,vc-b :weight normal))))
+   `(git-gutter-fr:added                      ((t (:background ,vc-g :foreground ,vc-g :weight normal))))
+   `(git-gutter-fr:deleted                    ((t (:background ,vc-r :foreground ,vc-r :weight normal))))
+   `(git-gutter-fr:modified                   ((t (:background ,vc-b :foreground ,vc-b :weight normal))))
 
-   `(diff-hl-insert                           ((t (:background ,tw-g :foreground ,tw-g))))
-   `(diff-hl-delete                           ((t (:background ,tw-r :foreground ,tw-r))))
-   `(diff-hl-change                           ((t (:background ,tw-b :foreground ,tw-b))))
+   `(diff-hl-insert                           ((t (:background ,vc-g :foreground ,vc-g))))
+   `(diff-hl-delete                           ((t (:background ,vc-r :foreground ,vc-r))))
+   `(diff-hl-change                           ((t (:background ,vc-b :foreground ,vc-b))))
 
    `(neo-dir-link-face                        ((t (:foreground "#cccccc" :family "Sans Serif"))))
    `(neo-header-face                          ((t (:foreground "#cccccc" :family "Sans Serif"))))
