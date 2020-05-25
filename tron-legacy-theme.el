@@ -50,12 +50,12 @@
       (fg0               "#90ACBC")
       (fg1               (if tron-legacy-dark-fg-bright-comments "#5A7387" "#B0CCDC")) ; default fg
       (fg2               "#BBCCDD")
-      (fg3               "#BBECEF")
+      (fg3               "#BBF0EF")
       (fg4               "#CBECFF")
       (bg00              "#000000")
       (bg0               "#000000")
       (bg1               "#000000") ; default bg
-      (bg2               "#112131")
+      (bg2               "#17181b")
       (bg3               "#1B324B")
       (bg4               "#2B4255")
       (hl-line           "#0E2638") ; hl-line
@@ -66,11 +66,11 @@
       (key2              "#9BBDD6")
       (key3              "#AAAAAA")
       (accent            "#FFFFFF")
-      (numeric           "#4bb5be")
+      (numeric           "#4BB5BE")
       (mode-line-bg      "#3D5666")
       (mode-line-bg-dark "#1E1E1E")
       (line-num          "#5A7387")
-      (cursor            (if tron-legacy-vivid-cursor "#EEC45B" "#B0CCDC"))
+      (cursor            (if tron-legacy-vivid-cursor "#DEB45B" "#B0CCDC"))
       (builtin           "#8Fd4FF")
       (keyword           "#8Fd4FF")
       (const             "#BBF0EF")
@@ -79,7 +79,7 @@
       (type              "#4BB5BE")
       (str               "#387AAA")
       (func              "#DEB45B")
-      (var               "#9BBDD6")
+      (var               (if tron-legacy-dark-fg-bright-comments "#5A7387" "#B0CCDC")) ; var = fg
       (warning           "#880000")
 
       ;; standardized palette
@@ -88,11 +88,11 @@
       (tron-magenta        "#B62D66")
       (tron-orange         "#DEB45B")
       (tron-red            "#B62D66")
-      (tron-blue           "#5EC4FF")
+      (tron-blue           "#8Fd4FF")
       (tron-green          "#4BB5BE")
       (tron-lightred       "#FF7DBB")
-      (tron-lightblue      "#A0DCFC")
-      (tron-lightgreen     "#ABDCDF")
+      (tron-lightblue      "#A0DCFF")
+      (tron-lightgreen     "#BBF0EF")
       (tron-red-bg         "#361016")
       (tron-blue-bg        "#040E3F")
       (tron-green-bg       "#03353E")
