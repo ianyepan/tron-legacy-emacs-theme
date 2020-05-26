@@ -31,24 +31,24 @@
 
 ;;; Code:
 
-(defgroup tron-legacy nil
-  "Options for tron-legacy."
+(defgroup tron-legacy-theme nil
+  "Options for tron-legacy theme."
   :group 'faces)
 
-(defcustom tron-legacy-dark-fg-bright-comments nil
+(defcustom tron-legacy-theme-dark-fg-bright-comments nil
   "If non-nil, default foreground will be dimmed and comments will be boosted to be brighter than the normal foreground."
-  :group 'tron-legacy
+  :group 'tron-legacy-theme
   :type 'boolean)
 
-(defcustom tron-legacy-vivid-cursor nil
+(defcustom tron-legacy-theme-vivid-cursor nil
   "If non-nil, the cursor will be bright golden, making it easier to spot."
-  :group 'tron-legacy
+  :group 'tron-legacy-theme
   :type 'boolean)
 
 (deftheme tron-legacy)
 (let ((class '((class color) (min-colors 89)))
       (fg0               "#90ACBC")
-      (fg1               (if tron-legacy-dark-fg-bright-comments "#5A7387" "#B0CCDC")) ; default fg
+      (fg1               (if tron-legacy-theme-dark-fg-bright-comments "#5A7387" "#B0CCDC")) ; default fg
       (fg2               "#BBCCDD")
       (fg3               "#BBF0EF")
       (fg4               "#CBECFF")
@@ -70,16 +70,16 @@
       (mode-line-bg      "#3D5666")
       (mode-line-bg-dark "#1E1E1E")
       (line-num          "#5A7387")
-      (cursor            (if tron-legacy-vivid-cursor "#DEB45B" "#B0CCDC"))
+      (cursor            (if tron-legacy-theme-vivid-cursor "#DEB45B" "#B0CCDC"))
       (builtin           "#8Fd4FF")
       (keyword           "#8Fd4FF")
       (const             "#BBF0EF")
-      (comment           (if tron-legacy-dark-fg-bright-comments "#B0CCDC" "#5A7387"))
+      (comment           (if tron-legacy-theme-dark-fg-bright-comments "#B0CCDC" "#5A7387"))
       (doc               "#6A8397")
       (type              "#4BB5BE")
       (str               "#387AAA")
       (func              "#DEB45B")
-      (var               (if tron-legacy-dark-fg-bright-comments "#5A7387" "#B0CCDC")) ; var = fg
+      (var               (if tron-legacy-theme-dark-fg-bright-comments "#5A7387" "#B0CCDC")) ; var = fg
       (warning           "#880000")
 
       ;; standardized palette

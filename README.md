@@ -37,16 +37,16 @@ Download `tron-legacy-theme.el` and put it under `~/.emacs.d/themes/` (or `~/.co
 
 ### Customization options:
 
-1. Setting `tron-legacy-dark-fg-bright-comments` to `t` causes the foreground to be dimmed and comments to be brighter. The default value is `nil`.
+1. Setting `tron-legacy-theme-dark-fg-bright-comments` to `t` causes the foreground to be dimmed and comments to be brighter. The default value is `nil`.
 
 ```emacs-lisp
-(setq tron-legacy-dark-fg-bright-comments t)
+(setq tron-legacy-theme-dark-fg-bright-comments t)
 ```
 
-2. Setting `tron-legacy-vivid-cursor` to `t` changes the cursor colour to bright golden, making it easier to spot.
+2. Setting `tron-legacy-theme-vivid-cursor` to `t` changes the cursor colour to bright golden, making it easier to spot.
 
 ```emacs-lisp
-(setq tron-legacy-vivid-cursor t)
+(setq tron-legacy-theme-vivid-cursor t)
 ```
 
 ### Screenshots of various modes:
