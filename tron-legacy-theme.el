@@ -45,6 +45,11 @@
   :group 'tron-legacy-theme
   :type 'boolean)
 
+(defcustom tron-legacy-theme-softer-bg nil
+  "If non-nil, the contrast of the background will be slightly lower, instead of being pure black."
+  :group 'tron-legacy-theme
+  :type 'boolean)
+
 (deftheme tron-legacy)
 (let ((class '((class color) (min-colors 89)))
       (fg0               "#90ACBC")
@@ -53,8 +58,8 @@
       (fg3               "#BBF0EF")
       (fg4               "#CBECFF")
       (bg0               "#000000")
-      (bg1               "#000000") ; default bg
-      (bg2               "#17181b")
+      (bg1               (if tron-legacy-theme-softer-bg "#17181b" "#000000")) ; default bg
+      (bg2               (if tron-legacy-theme-softer-bg "#192533" "#0E1926"))
       (bg3               "#1B324B")
       (bg4               "#2B4255")
       (hl-line           "#0E2638") ; hl-line

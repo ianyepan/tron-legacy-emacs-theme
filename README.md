@@ -49,6 +49,12 @@ Download `tron-legacy-theme.el` and put it under `~/.emacs.d/themes/` (or `~/.co
 (setq tron-legacy-theme-vivid-cursor t)
 ```
 
+3. Setting `tron-legacy-theme-softer-bg` to `t` changes the background colour to a dark gunmetal grey, instead of the default pure black.
+
+```emacs-lisp
+(setq tron-legacy-theme-softer-bg t)
+```
+
 ### Screenshots of various modes:
 
 <p align="center">
