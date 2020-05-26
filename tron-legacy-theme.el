@@ -1,4 +1,4 @@
-;;; tron-legacy-theme.el --- An orginal retro-futuristic theme inspired by Tron: Legacy
+;;; tron-legacy-theme.el --- An orginal retro-futuristic theme inspired by Tron: Legacy -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2018-2020 Ian Y.E. Pan
 
@@ -52,7 +52,6 @@
       (fg2               "#BBCCDD")
       (fg3               "#BBF0EF")
       (fg4               "#CBECFF")
-      (bg00              "#000000")
       (bg0               "#000000")
       (bg1               "#000000") ; default bg
       (bg2               "#17181b")
