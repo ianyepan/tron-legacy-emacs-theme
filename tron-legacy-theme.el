@@ -7,7 +7,7 @@
 ;; Version: 2.0.0
 
 ;; This program is free software: you can redistribute it and/or modify
-;; it under the tertron of the GNU General Public License as published by
+;; it under the terms of the GNU General Public License as published by
 ;; the Free Software Foundation, either version 3 of the License, or
 ;; (at your option) any later version.
 
@@ -316,7 +316,7 @@
    `(magit-sequence-stop                      ((t (:foreground ,tron-green))))
    `(magit-signature-bad                      ((t (:inherit error))))
    `(magit-signature-error                    ((t (:inherit error))))
-   `(magit-signature-expitron-red               ((t (:foreground ,tron-orange))))
+   `(magit-signature-expired-key              ((t (:foreground ,tron-orange))))
    `(magit-signature-good                     ((t (:inherit success))))
    `(magit-signature-revoked                  ((t (:foreground ,tron-magenta))))
    `(magit-signature-untrusted                ((t (:foreground ,tron-bluegreen))))
