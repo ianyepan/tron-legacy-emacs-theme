@@ -426,6 +426,8 @@
    `(web-mode-string-face                     ((,class (:foreground ,str))))
    `(web-mode-type-face                       ((,class (:inherit ,font-lock-type-face))))
    `(web-mode-warning-face                    ((,class (:inherit ,font-lock-warning-face))))
+   `(web-mode-json-key-face                   ((,class (:foreground ,tron-green))))
+   `(web-mode-json-context-face               ((,class (:foreground ,tron-blue))))
 
    ;;;;; Diff
    `(diff-header                              ((t (:foreground ,tron-bluegreen :background nil))))
