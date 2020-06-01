@@ -1,4 +1,4 @@
-;;; tron-legacy-theme.el --- An orginal retro-futuristic theme inspired by Tron: Legacy -*- lexical-binding: t; -*-
+;;; tron-legacy-theme.el --- An original retro-futuristic theme inspired by Tron: Legacy -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2018-2020 Ian Y.E. Pan
 
