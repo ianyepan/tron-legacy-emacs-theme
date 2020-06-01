@@ -558,6 +558,11 @@
 
    ;;;;; highlight thing
    `(highlight-thing                          ((t (:inherit highlight-symbol-face))))
+
+   ;;;;; flycheck
+   `(flycheck-info                            ((t (:underline (:style wave :color ,tron-green)))))
+   `(flycheck-error                           ((t (:underline (:style wave :color ,tron-yellow)))))
+   `(flycheck-warning                         ((t (:underline (:style wave :color ,tron-yellow)))))
    ))
 
 ;;;###autoload
