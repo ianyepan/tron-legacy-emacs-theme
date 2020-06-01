@@ -90,6 +90,10 @@ Download `tron-legacy-theme.el` and put it under `~/.emacs.d/themes/` (or `~/.co
 
 <br>
 
+### More in-action moments of `tron-legacy`
+
+Tron-legacy theme [showcase](https://peach-melpa.org/themes/tron-legacy-theme?lang=js&variant=tron-legacy) on Peach Melpa.
+
 ### Main colour palette:
 
 
