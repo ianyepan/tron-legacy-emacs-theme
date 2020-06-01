@@ -22,17 +22,40 @@
 </p>
 
 
-### Invoking the theme:
+### Installing the theme:
 
+
+#### MELPA (recommended)
+
+`tron-legacy-theme` is now on MELPA as a package (as of 1. June. 2020)! An example use-package declaration:
+
+```emacs-lisp
+(use-package tron-legacy-theme
+  :config
+  (load-theme 'tron-legacy t))
+```
+
+If you want to invoke some customization options (more info see below), you should set them "before" you load the theme, like so:
+
+```emacs-lisp
+(use-package tron-legacy-theme
+  :config
+  (setq tron-legacy-theme-vivid-cursor t)
+  (load-theme 'tron-legacy t))
+```
+
+
+
+#### Manual
 
 Download `tron-legacy-theme.el` and put it under `~/.emacs.d/themes/` (or `~/.config/emacs/themes/`), then add these lines to your `init.el`:
 
-```
+```emacs-lisp
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-# or
+; or
 (add-to-list 'custom-theme-load-path "~/.config/emacs/themes/")
 
-(load-theme `tron-legacy t)
+(load-theme 'tron-legacy t)
 ```
 
 ### Customization options:
