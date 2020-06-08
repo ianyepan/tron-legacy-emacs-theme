@@ -25,7 +25,7 @@
 ### Installing the theme:
 
 
-#### MELPA (recommended)
+#### Installation Method 1: MELPA (Recommended)
 
 `tron-legacy-theme` is now on MELPA as a package (as of 1. June. 2020)! An example use-package declaration:
 
@@ -46,7 +46,7 @@ If you want to invoke some customization options (more info see below), you shou
 
 
 
-#### Manual
+#### Installation Method 2: manual install
 
 Download `tron-legacy-theme.el` and put it under `~/.emacs.d/themes/` (or `~/.config/emacs/themes/`), then add these lines to your `init.el`:
 
