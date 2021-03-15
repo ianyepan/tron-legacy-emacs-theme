@@ -119,7 +119,7 @@
    `(font-lock-warning-face                   ((,class (:foreground ,warning :background ,bg2))))
 
    ;;;;; More built-in UI
-   `(region                                   ((,class (:background ,bg-hl :distant-foreground ,fg0))))
+   `(region                                   ((,class (:background ,bg-hl :distant-foreground ,fg0 :extend nil))))
    `(highlight                                ((,class (:foreground ,bg3 :background ,fg3))))
    `(hl-line                                  ((,class (:background ,hl-line))))
    `(fringe                                   ((,class (:background ,bg1 :foreground ,fg4))))
