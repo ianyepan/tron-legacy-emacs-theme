@@ -22,12 +22,8 @@
 ;; This file is not part of Emacs.
 
 ;;; Commentary:
-;; An original theme for Emacs 24+ inspired by the look and feel of Tron: Legacy, with further inspirations drawn from Base16-Black-Metal, Grayscale and City Lights.
-
-;; MELPA recipe
-;; (tron-legacy-theme
-;;  :fetcher github
-;;  :repo "ianpan870102/tron-legacy-emacs-theme")
+;; An original theme for Emacs 24+ inspired by the look and feel of Tron: Legacy,
+;; with further inspirations drawn from Base16-Black-Metal, Grayscale and City Lights.
 
 ;;; Code:
 
@@ -562,8 +558,7 @@
    ;;;;; flycheck
    `(flycheck-info                            ((t (:underline (:style wave :color ,tron-green)))))
    `(flycheck-error                           ((t (:underline (:style wave :color ,tron-yellow)))))
-   `(flycheck-warning                         ((t (:underline (:style wave :color ,tron-yellow)))))
-   ))
+   `(flycheck-warning                         ((t (:underline (:style wave :color ,tron-yellow)))))))
 
 ;;;###autoload
 (when (and (boundp 'custom-theme-load-path) load-file-name)
