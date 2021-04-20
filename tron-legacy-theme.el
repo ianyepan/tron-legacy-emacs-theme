@@ -80,7 +80,7 @@
       (str               "#387AAA")
       (func              "#DEB45B")
       (var               (if tron-legacy-theme-dark-fg-bright-comments "#5A7387" "#B0CCDC")) ; var = fg
-      (warning           "#880000")
+      (warning           "#FF7DBB")
 
       ;; standardized palette
       (tron-yellow         "#DEB45B")
@@ -132,8 +132,8 @@
    `(minibuffer-prompt                        ((,class (:foreground ,tron-bluegreen :weight normal))))
    `(default-italic                           ((,class (:italic t))))
    `(link                                     ((,class (:foreground ,const :underline t))))
-   `(error                                    ((,class (:foreground ,tron-orange))))
-   `(warning                                  ((,class (:foreground ,tron-magenta))))
+   `(error                                    ((,class (:foreground ,tron-lightred))))
+   `(warning                                  ((,class (:foreground ,tron-yellow))))
    `(success                                  ((,class (:foreground ,tron-bluegreen))))
    `(dired-directory                          ((t (:inherit font-lock-keyword-face))))
    `(line-number                              ((,class (:foreground ,line-num :background nil))))
@@ -568,7 +568,7 @@
 
    ;;;;; flycheck
    `(flycheck-info                            ((t (:underline (:style wave :color ,tron-green)))))
-   `(flycheck-error                           ((t (:underline (:style wave :color ,tron-yellow)))))
+   `(flycheck-error                           ((t (:underline (:style wave :color ,tron-lightred)))))
    `(flycheck-warning                         ((t (:underline (:style wave :color ,tron-yellow)))))))
 
 ;;;###autoload
