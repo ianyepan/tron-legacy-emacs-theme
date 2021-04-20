@@ -66,13 +66,13 @@ Download `tron-legacy-theme.el` and put it under `~/.emacs.d/themes/` (or `~/.co
 (setq tron-legacy-theme-dark-fg-bright-comments t)
 ```
 
-2. Setting `tron-legacy-theme-vivid-cursor` to `t` changes the cursor colour to bright golden, making it easier to spot.
+2. Setting `tron-legacy-theme-vivid-cursor` to `t` changes the cursor color to bright golden, making it easier to spot.
 
 ```emacs-lisp
 (setq tron-legacy-theme-vivid-cursor t)
 ```
 
-3. Setting `tron-legacy-theme-softer-bg` to `t` changes the background colour to a dark gunmetal grey, instead of the default pure black.
+3. Setting `tron-legacy-theme-softer-bg` to `t` changes the background color to a dark gunmetal grey, instead of the default pure black.
 
 ```emacs-lisp
 (setq tron-legacy-theme-softer-bg t)
@@ -94,7 +94,7 @@ Download `tron-legacy-theme.el` and put it under `~/.emacs.d/themes/` (or `~/.co
 
 Tron-legacy theme [showcase](https://peach-melpa.org/themes/tron-legacy-theme?lang=js&variant=tron-legacy) on Peach Melpa.
 
-### Main colour palette:
+### Main color palette:
 
 
 <p align="center">
