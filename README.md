@@ -81,11 +81,10 @@ Download `tron-legacy-theme.el` and put it under `~/.emacs.d/themes/` (or `~/.co
 ### Screenshots of various modes:
 
 <p align="center">
-<!-- <img src="./screenshots/screenshot1-tron.png" width=800> -->
-<img src="./screenshots/screenshot2-tron.png" width=800>
-<img src="./screenshots/screenshot3-tron.png" width=800>
-<img src="./screenshots/screenshot4-tron.png" width=800>
-<img src="./screenshots/screenshot5-tron.png" width=800>
+  <img src="./screenshots/cpp.png" width=800>
+  <img src="./screenshots/log.png" width=800>
+  <img src="./screenshots/js.png" width=800>
+  <img src="./screenshots/magit.png" width=800>
 </p>
 
 <br>
