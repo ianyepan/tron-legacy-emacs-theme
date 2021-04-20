@@ -563,6 +563,9 @@
    `(tree-sitter-hl-face:number               ((t (:inherit highlight-numbers-number))))
    `(tree-sitter-hl-face:variable.special     ((t (:inherit font-lock-keyword-face))))
 
+   ;;;;; lsp-ui
+   `(lsp-ui-doc-background                    ((t (:background ,bg0))))
+
    ;;;;; flycheck
    `(flycheck-info                            ((t (:underline (:style wave :color ,tron-green)))))
    `(flycheck-error                           ((t (:underline (:style wave :color ,tron-yellow)))))
