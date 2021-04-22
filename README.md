@@ -103,7 +103,7 @@ Tron-legacy theme [showcase](https://peach-melpa.org/themes/tron-legacy-theme?la
 <br>
 
 
-Copyright© 2018-2020 Ian Y.E. Pan
+Copyright© 2018-2021 Ian Y.E. Pan
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
