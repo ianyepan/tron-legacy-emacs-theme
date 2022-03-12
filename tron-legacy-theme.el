@@ -504,12 +504,12 @@
    `(swiper-line-face                         ((t (:foreground ,fg3 :background ,bg-hl :extend t))))
 
    ;;;;; Git gutter & git gutter fringe
-   `(git-gutter:added                         ((t (:background ,vc-g :foreground ,vc-g :weight normal))))
-   `(git-gutter:deleted                       ((t (:background ,vc-r :foreground ,vc-r :weight normal))))
-   `(git-gutter:modified                      ((t (:background ,vc-b :foreground ,vc-b :weight normal))))
-   `(git-gutter-fr:added                      ((t (:background ,vc-g :foreground ,vc-g :weight normal))))
-   `(git-gutter-fr:deleted                    ((t (:background ,vc-r :foreground ,vc-r :weight normal))))
-   `(git-gutter-fr:modified                   ((t (:background ,vc-b :foreground ,vc-b :weight normal))))
+   `(git-gutter:added                         ((t (:foreground ,vc-g :weight normal))))
+   `(git-gutter:deleted                       ((t (:foreground ,vc-r :weight normal))))
+   `(git-gutter:modified                      ((t (:foreground ,vc-b :weight normal))))
+   `(git-gutter-fr:added                      ((t (:foreground ,vc-g :weight normal))))
+   `(git-gutter-fr:deleted                    ((t (:foreground ,vc-r :weight normal))))
+   `(git-gutter-fr:modified                   ((t (:foreground ,vc-b :weight normal))))
 
    ;;;;; diff-hl (git gutter)
    `(diff-hl-insert                           ((t (:background ,vc-g :foreground ,vc-g))))
