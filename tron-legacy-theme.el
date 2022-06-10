@@ -120,7 +120,7 @@
 
    ;;;;; More built-in UI
    `(region                                   ((,class (:background ,bg-hl :distant-foreground ,fg0 :extend nil))))
-   `(highlight                                ((,class (:foreground ,bg3 :background ,fg3))))
+   `(highlight                                ((,class (:foreground ,fg3 :background nil :underline t)))) ; link hover
    `(hl-line                                  ((,class (:background ,hl-line))))
    `(fringe                                   ((,class (:background ,bg1 :foreground ,fg4))))
    `(cursor                                   ((,class (:background ,cursor))))
