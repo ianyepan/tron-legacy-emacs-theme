@@ -554,6 +554,11 @@
 
    ;;;;; highlight thing
    `(highlight-thing                          ((t (:inherit highlight-symbol-face))))
+   
+   ;;;;; tab-bar-mode
+   `(tab-bar                                  ((t (:background ,bg0))))
+   `(tab-bar-tab                              ((t (:foreground ,fg0 :background ,bg0 :weight bold :box nil))))
+   `(tab-bar-tab-inactive                     ((t (:foreground ,fg0 :background ,bg0 :box nil))))
 
    ;;;;; tree-sitter
    `(tree-sitter-hl-face:method.call          ((t (:inherit font-lock-function-name-face))))
