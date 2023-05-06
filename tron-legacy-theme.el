@@ -120,7 +120,7 @@
 
    ;;;;; More built-in UI
    `(region                                   ((,class (:background ,bg-hl :distant-foreground ,fg0 :extend nil))))
-   `(highlight                                ((,class (:foreground ,fg3 :background nil :underline t)))) ; link hover
+   `(highlight                                ((,class (:foreground ,fg3 :background unspecified :underline t)))) ; link hover
    `(hl-line                                  ((,class (:background ,hl-line))))
    `(fringe                                   ((,class (:background ,bg1 :foreground ,fg4))))
    `(cursor                                   ((,class (:background ,cursor))))
@@ -136,9 +136,9 @@
    `(warning                                  ((,class (:foreground ,tron-yellow))))
    `(success                                  ((,class (:foreground ,tron-bluegreen))))
    `(dired-directory                          ((t (:inherit font-lock-keyword-face))))
-   `(line-number                              ((,class (:foreground ,line-num :background nil))))
-   `(line-number-current-line                 ((,class (:foreground ,fg1 :background nil))))
-   `(trailing-whitespace                      ((,class :foreground nil :background ,warning)))
+   `(line-number                              ((,class (:foreground ,line-num :background unspecified))))
+   `(line-number-current-line                 ((,class (:foreground ,fg1 :background unspecified))))
+   `(trailing-whitespace                      ((,class :foreground unspecified :background ,warning)))
    `(lazy-highlight                           ((,class (:foreground ,fg2 :background ,bg3))))
 
    ;;;;; which-func
@@ -147,7 +147,7 @@
    ;;;;; mode-line tweaks
    `(mode-line                                ((,class (:bold nil :foreground ,fg4 :background ,mode-line-bg))))
    `(mode-line-inactive                       ((,class (:bold nil :foreground ,fg0 :background ,mode-line-bg-dark))))
-   `(mode-line-buffer-id                      ((,class (:bold nil :foreground ,fg4 :background nil))))
+   `(mode-line-buffer-id                      ((,class (:bold nil :foreground ,fg4 :background unspecified))))
    `(mode-line-highlight                      ((,class (:foreground ,keyword :box nil :weight normal))))
    `(mode-line-emphasis                       ((,class (:foreground ,fg1))))
 
@@ -426,8 +426,8 @@
    `(web-mode-json-context-face               ((,class (:foreground ,tron-blue))))
 
    ;;;;; Diff
-   `(diff-header                              ((t (:foreground ,tron-bluegreen :background nil))))
-   `(diff-file-header                         ((t (:foreground ,fg3 :background nil))))
+   `(diff-header                              ((t (:foreground ,tron-bluegreen :background unspecified))))
+   `(diff-file-header                         ((t (:foreground ,fg3 :background unspecified))))
    `(diff-hunk-header                         ((t (:foreground ,fg4 :background ,bg4))))
    `(diff-added                               ((t (:foreground ,tron-green :background ,tron-green-bg))))
    `(diff-removed                             ((t (:foreground ,tron-red :background ,tron-red-bg))))
@@ -554,7 +554,7 @@
 
    ;;;;; highlight thing
    `(highlight-thing                          ((t (:inherit highlight-symbol-face))))
-   
+
    ;;;;; tab-bar-mode
    `(tab-bar                                  ((t (:background ,bg0))))
    `(tab-bar-tab                              ((t (:foreground ,fg0 :background ,bg0 :weight bold :box nil))))
