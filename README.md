@@ -99,7 +99,7 @@ Download `tron-legacy-theme.el` and put it under `~/.emacs.d/themes/` (or `~/.co
 <br>
 
 
-Copyright© 2018-2023 Ian Y.E. Pan
+Copyright© 2018-2026 Ian Y.E. Pan
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
