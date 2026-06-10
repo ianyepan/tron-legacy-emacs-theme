@@ -1,6 +1,6 @@
 ;;; tron-legacy-theme.el --- An original retro-futuristic theme inspired by Tron: Legacy -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2018-2020 Ian Y.E. Pan
+;; Copyright (C) 2018-2026 Ian Y.E. Pan
 
 ;; Author: Ian Y.E. Pan
 ;; URL: https://github.com/ianpan870102/tron-legacy-emacs-theme
